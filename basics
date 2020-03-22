@@ -1,8 +1,11 @@
 1. Basics
-		print("Hello Anand")
+		`print("Hello Anand")`
 	
-2. Variables   
-	# case sensitive, letters (a-z), underscore, numbers (0-9), cannot add int with string, no space in bw twenty_one
+2. Variables  : 
+
+
+	FYI :
+ case sensitive, letters (a-z), underscore, numbers (0-9), cannot add int with string, no space in bw twenty_one
 	values can be string or numbers, string should be with double quotes
 		
 	sample code
@@ -14,7 +17,7 @@
 		
 	output: two thousand and twenty_one days
 		
-3. Syntax
+3. # Syntax
 
 		if 10 > 8:
 			print ("10 is greater than 8")    # spacing here is important
@@ -28,7 +31,9 @@
 		def sum(a,b):						# spacing here is important	
 			print(a-b)
 		c = sum(36,23)
-	output: 13
+	
+
+        output: 13
 	
 5. CommandLine
 		
@@ -42,7 +47,7 @@
 	
 		anand_age = 30						#int
 		anand_height = 5.9					#float
-		anand_door_no = 45j					# j -> complex, other alphabets are not allowed as values
+		`anand_door_no = 45j`					# j -> complex, other alphabets are not allowed as values
 
 		print (type(anand_age))				#type -> will tell the type of number in the value	
 		print (type(anand_age))
@@ -53,7 +58,8 @@
 	<class 'int'>
 	<class 'complex'>
 
-	#Casting
+8. Casting
+
 	
 		anand_age = int(30.7)
 		anand_height = float(6)
@@ -100,7 +106,9 @@
 	Enter your last name : 
 	Anand
 	 Devanathan
+	
+	Final Output: 
 	My full name is Anand Devanathan
 
 
-		
+	
