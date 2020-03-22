@@ -17,7 +17,7 @@
 		
 	output: two thousand and twenty_one days
 		
-3. # Syntax
+3. Syntax
 
 		if 10 > 8:
 			print ("10 is greater than 8")    # spacing here is important
