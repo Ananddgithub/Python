@@ -47,7 +47,7 @@
 	
 		anand_age = 30						#int
 		anand_height = 5.9					#float
-		`anand_door_no = 45j`					# j -> complex, other alphabets are not allowed as values
+		anand_door_no = 45j					# j -> complex, other alphabets are not allowed as values
 
 		print (type(anand_age))				#type -> will tell the type of number in the value	
 		print (type(anand_age))
