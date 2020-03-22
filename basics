@@ -78,7 +78,7 @@
 	96
 	5.9 									#"5.9 here is a string"
 	
-8. Strings
+9. Strings
 
 	full_name = "Anand_Devanathan"
 												Output
@@ -91,7 +91,7 @@
 	print (full_name.replace("_", "."))	    Anand.Devanathan
 	print (full_name.split("_"))			['Anand', 'Devanathan']  		#will split your variable into individual variable
 	
-9. Input
+10. Input
 	
 	print ("Enter your first name : ")
 	print ("Enter your last name : ")
