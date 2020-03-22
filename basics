@@ -1,0 +1,106 @@
+1. Basics
+		print("Hello Anand")
+	
+2. Variables   
+	# case sensitive, letters (a-z), underscore, numbers (0-9), cannot add int with string, no space in bw twenty_one
+	values can be string or numbers, string should be with double quotes
+		
+	sample code
+	
+		x = "twenty_one "
+		y = "days"
+		z = x+y
+		print("two thousand and " + z)
+		
+	output: two thousand and twenty_one days
+		
+3. Syntax
+
+		if 10 > 8:
+			print ("10 is greater than 8")    # spacing here is important
+		else :
+			print ("10 is lesser than 8")
+	
+	output: 10 is greater than 8
+	
+4. Function
+
+		def sum(a,b):						# spacing here is important	
+			print(a-b)
+		c = sum(36,23)
+	output: 13
+	
+5. CommandLine
+		
+		open cmd prompt, navigate to the location where python file is and run "python <filename>"
+		
+6. Comments
+		
+		select the line and press ctrl+/ to comment
+
+7. Numbers
+	
+		anand_age = 30						#int
+		anand_height = 5.9					#float
+		anand_door_no = 45j					# j -> complex, other alphabets are not allowed as values
+
+		print (type(anand_age))				#type -> will tell the type of number in the value	
+		print (type(anand_age))
+		print (type(anand_door_no))	
+
+	Output:
+	<class 'int'>
+	<class 'int'>
+	<class 'complex'>
+
+	#Casting
+	
+		anand_age = int(30.7)
+		anand_height = float(6)
+		anand_weight = int(96)
+		anand_previous_height = str(5.9) 
+
+		print (anand_age)
+		print (anand_height)
+		print (anand_weight)
+		print (anand_previous_height)
+	
+	Output:
+	
+	30
+	6.0
+	96
+	5.9 									#"5.9 here is a string"
+	
+8. Strings
+
+	full_name = "Anand_Devanathan"
+												Output
+	print (len(full_name))					16
+	print (full_name[0:5])					Anand				#index starts from 0 and uses square brackets
+	print (full_name[6:16])					Devanathan
+	print (full_name.lower())				anand_devanathan
+	print (full_name.upper())				ANAND_DEVANATHAN
+	print (full_name.strip())									#will trim the empty spaces before and after the declared value
+	print (full_name.replace("_", "."))	    Anand.Devanathan
+	print (full_name.split("_"))			['Anand', 'Devanathan']  		#will split your variable into individual variable
+	
+9. Input
+	
+	print ("Enter your first name : ")
+	print ("Enter your last name : ")
+
+	first_name = input()
+	last_name  = input()
+
+	print ("My full name is " + first_name + last_name)	
+	
+	Output: 
+	Enter your first name : 
+	Enter your last name : 
+	Anand
+	 Devanathan
+	My full name is Anand Devanathan
+
+
+		
