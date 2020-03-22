@@ -2,8 +2,6 @@
 		print("Hello Anand")
 	
 2. Variables  : 
-
-
 	FYI :
  case sensitive, letters (a-z), underscore, numbers (0-9), cannot add int with string, no space in bw twenty_one
 	values can be string or numbers, string should be with double quotes
@@ -108,7 +106,5 @@
 	 Devanathan
 	
 	Final Output: 
-	My full name is Anand Devanathan
-
-
 	
+	My full name is Anand Devanathan
